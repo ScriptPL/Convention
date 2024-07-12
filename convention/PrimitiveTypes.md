@@ -9,6 +9,7 @@ with different interpretations.
 ```ü
 type int
 type uint
+type void = int0
 ```
 
 To declare a numeric value, use `int` or `uint` with an optional size in bits of the value behind.
@@ -34,4 +35,6 @@ be false bool = 0
 ```
 type byte = uint8
 type char
+type str_slice = []char
+type string = Vec<char>
 ```
