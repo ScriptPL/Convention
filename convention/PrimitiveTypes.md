@@ -36,5 +36,5 @@ be false bool = 0
 type byte = uint8
 type char
 type str_slice = []char
-type string = Vec<char>
+type String = Vec<char>
 ```
